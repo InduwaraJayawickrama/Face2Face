@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face2Face - Video Chat</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="page-identifier">Face2Face Video Chat</div>
+
+    <div id="join-section">
+        <input type="text" id="room" placeholder="Enter Room ID">
+        <button onclick="joinRoom()" id="joinButton">Join Room</button>
+    </div>
+
+    <div id="videos">
+        <div class="video-container">
+            <video id="localVideo" autoplay playsinline muted></video>
+            <div class="username-label">You</div>
+        </div>
+    </div>
+
+    <div id="controls" style="display: none;">
+        <button onclick="toggleMic()" id="micButton" class="control-button"><i class="fas fa-microphone"></i></button>
+        <button onclick="toggleCamera()" id="cameraButton" class="control-button"><i class="fas fa-video"></i></button>
+        <button onclick="toggleScreenShare()" id="screenShareButton" class="control-button"><i class="fas fa-desktop"></i></button>
+        <!-- New Record Button -->
+        <button onclick="toggleRecording()" id="recordButton" class="control-button"><i class="fas fa-record-vinyl"></i></button>
+        <button onclick="endCall()" id="leaveButton" class="control-button leave-button"><i class="fas fa-phone-slash"></i></button>
+    </div>
+
+    <div id="chat" style="display: none;">
+        <div class="chat-header">
+            <!-- Content will be added dynamically by JavaScript -->
+        </div>
+        <div id="chatbox"></div>
+        <div id="inputArea">
+            <input type="text" id="messageInput" placeholder="Type a message">
+            <button onclick="sendMessage()" id="sendButton">Send →</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
