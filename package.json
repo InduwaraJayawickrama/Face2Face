@@ -4,7 +4,8 @@
   "description": "WebRTC Video Chat Application",
   "main": "server/server.js",
   "scripts": {
-    "start": "react-scripts start", 
+    "start": "react-scripts start",
+    "server": "node server/server.js",
     "dev": "nodemon server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
