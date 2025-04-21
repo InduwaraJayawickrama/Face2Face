@@ -5,7 +5,7 @@
       "src": "public/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "public"
+        "distDir": "public/build"
       }
     }
   ],
