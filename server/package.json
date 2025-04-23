@@ -1,21 +1,15 @@
 {
-  "name": "webrtc-chat",
+  "name": "socketio-server",
   "version": "1.0.0",
-  "description": "WebRTC Video Chat Application",
-  "main": "server/server.js",
+  "description": "Express + Socket.io signaling server for WebRTC",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "node server/server.js"
+    "start": "node server.js"
   },
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "socket.io": "^4.7.1",
-    "webrtc-chat": "file:",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "socket.io": "^4.7.2"
   }
 }
