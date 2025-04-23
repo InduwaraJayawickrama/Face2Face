@@ -1,7 +1,11 @@
 {
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
+
   "name": "frontend",
   "version": "1.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
