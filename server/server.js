@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "*",  // You can restrict this to your Firebase domain if needed
     methods: ["GET", "POST"],
   },
   transports: ["websocket", "polling"],
@@ -14,6 +14,7 @@ const io = new Server(server, {
   pingInterval: 25000,
 });
 
+// Serve your frontend files (public directory)
 app.use(express.static("public"));
 
 const rooms = {};
@@ -105,12 +106,8 @@ io.on("connection", (socket) => {
   socket.on("disconnect", handleDisconnect);
 });
 
-server.on("error", (error) => {
-  console.error("Server error:", error);
-});
-
-// Start the server
-const PORT = process.env.PORT || 3004;
+// Server port from environment variable (set by Railway)
+const PORT = process.env.PORT || 3000;  // Default to 3000 for Railway
 server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
