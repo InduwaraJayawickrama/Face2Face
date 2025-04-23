@@ -1,24 +1,15 @@
 {
-  "name": "webrtc-chat",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "WebRTC Video Chat Application",
-  "main": "server/server.js",
   "scripts": {
     "start": "react-scripts start",
-    "dev": "nodemon server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.7.1",
-    "webrtc-chat": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
