@@ -1,12 +1,12 @@
 ```markdown
-WebRTC Video Conference Application – Face2Face
+**WebRTC Video Conference Application – Face2Face**
 
 A real-time video conferencing application built with **WebRTC**, **Socket.IO**, and **Express.js**. This application allows users to create or join video chat rooms, share screens, and communicate via text chat. It's a fully responsive and scalable solution designed to provide an excellent video conferencing experience.
 
 ## 🚀 Live Demo
 
-🌐 **Frontend (Firebase Hosting)**: [https://your-firebase-project.web.app](https://your-firebase-project.web.app)  
-🌐 **Backend (Vercel Deployment)**: [https://face2face-backend.vercel.app](https://face2face-backend.vercel.app)
+🌐 **Frontend (Firebase Hosting)**: [https://face2face-793a0.web.app/](https://face2face-793a0.web.app/)  
+🌐 **Backend (Railway Deployment)**: [https://face2face-production.up.railway.app/](https://face2face-production.up.railway.app/)
 
 ## 🌟 Features
 
@@ -22,9 +22,9 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 ## 🖼️ Screenshots
 
 ```
-![Homepage Screenshot](screenshots/screenshot-120629.png)
-![Video Room](screenshots/screenshot-120804.png)
-![Screen Sharing Example](screenshots/screenshot-121031.png)
+![Homepage Screenshot](https://drive.google.com/file/d/1jkNOqGJfxNL3gij-bpdS7g4DoJcv8Zs3/view?usp=sharing)
+![Video Room](https://drive.google.com/file/d/1499koRWdnDIaUwEqPpl0sw23VLpSROUd/view?usp=sharing)
+![Screen Sharing Example]([screenshots/screenshot-121031.png](https://drive.google.com/file/d/1NgB4Jtz2jcz3iLJlB4KdPRpgrDAVFb_I/view?usp=sharing))
 ```
 
 ## 📦 Prerequisites
@@ -36,7 +36,7 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/webrtc-video-conference.git
+git clone https://github.com/InduwaraJayawickrama/Face2Face
 cd webrtc-video-conference
 ```
 
@@ -86,7 +86,7 @@ firebase deploy
 ```
 
 ### 🔹 Backend (Vercel)
-1. Visit [https://vercel.com](https://vercel.com)
+1. Visit [https://railway.com/](https://railway.com/)
 2. Import your GitHub repo
 3. Set `server` as the root for backend
 4. Deploy it
@@ -133,8 +133,8 @@ This project is licensed under the **ISC License** – see the [LICENSE](LICENSE
 ## 🙋‍♂️ Author
 
 **Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)  
-LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+GitHub: [@InduwaraJayawickrama](https://github.com/InduwaraJayawickrama)  
+LinkedIn: [https://www.linkedin.com/in/induwara-jayawickrama](https://www.linkedin.com/in/induwara-jayawickrama)
 
 > ⭐ Don't forget to star the repo if you like it!
 ```
