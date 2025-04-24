@@ -22,9 +22,9 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 ## 🖼️ Screenshots
 
 ```
-![Homepage Screenshot](https://drive.google.com/file/d/1jkNOqGJfxNL3gij-bpdS7g4DoJcv8Zs3/view?usp=sharing)
-![Video Room](https://drive.google.com/file/d/1499koRWdnDIaUwEqPpl0sw23VLpSROUd/view?usp=sharing)
-![Screen Sharing Example]([screenshots/screenshot-121031.png](https://drive.google.com/file/d/1NgB4Jtz2jcz3iLJlB4KdPRpgrDAVFb_I/view?usp=sharing))
+![Homepage Screenshot](Screenshots/1.PNG)
+![Video Room](Screenshots/2.PNG)
+![Screen Sharing Example](Screenshots/3.PNG)
 ```
 
 ## 📦 Prerequisites
