@@ -1,5 +1,5 @@
 ```markdown
-# 🎥 WebRTC Video Conference Application – Face2Face
+WebRTC Video Conference Application – Face2Face
 
 A real-time video conferencing application built with **WebRTC**, **Socket.IO**, and **Express.js**. This application allows users to create or join video chat rooms, share screens, and communicate via text chat. It's a fully responsive and scalable solution designed to provide an excellent video conferencing experience.
 
@@ -7,8 +7,6 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 
 🌐 **Frontend (Firebase Hosting)**: [https://your-firebase-project.web.app](https://your-firebase-project.web.app)  
 🌐 **Backend (Vercel Deployment)**: [https://face2face-backend.vercel.app](https://face2face-backend.vercel.app)
-
-> Replace the URLs above with your actual deployed links if different.
 
 ## 🌟 Features
 
@@ -23,8 +21,6 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 
 ## 🖼️ Screenshots
 
-> Add your screenshots in the repo or README using Markdown image syntax:
-
 ```
 ![Homepage Screenshot](screenshots/screenshot-120629.png)
 ![Video Room](screenshots/screenshot-120804.png)
@@ -32,8 +28,6 @@ A real-time video conferencing application built with **WebRTC**, **Socket.IO**,
 ```
 
 ## 📦 Prerequisites
-
-Make sure the following are installed on your machine:
 
 - [Node.js](https://nodejs.org/) (v14.0.0 or higher)
 - [npm](https://www.npmjs.com/) (v6.0.0 or higher)
@@ -56,14 +50,11 @@ npm install
 npm start
 ```
 
-For development with auto-reload:
 ```bash
 npm run dev
 ```
 
 ### 4. Open in browser
-
-Navigate to:
 ```
 http://localhost:3000
 ```
