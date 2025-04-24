@@ -1,5 +1,3 @@
-Here’s your **final, copyable `README.md`** file, fully integrated with everything from your message — features, setup, live demo, screenshots (placeholders), and updated deployment details using **Firebase** for the frontend and **Vercel** for the backend.
-
 ```markdown
 # 🎥 WebRTC Video Conference Application – Face2Face
 
